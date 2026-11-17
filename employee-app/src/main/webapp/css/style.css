@@ -1,0 +1,16 @@
+body{font-family:Arial,sans-serif;margin:30px;background:#f5f6fa;color:#222}
+body.center{display:flex;justify-content:center;align-items:flex-start;padding-top:60px}
+.card{background:#fff;padding:24px;width:340px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.card label{display:block;margin-top:12px;font-size:14px}
+.card input{width:100%;padding:8px;margin-top:4px;box-sizing:border-box}
+.card button{margin-top:16px}
+.topbar,.toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+table{border-collapse:collapse;width:100%;background:#fff}
+th,td{padding:10px;border-bottom:1px solid #ddd;text-align:left}
+th{background:#2f3640;color:#fff}
+.btn,button{padding:7px 14px;background:#0984e3;color:#fff;border:0;border-radius:4px;text-decoration:none;cursor:pointer;font-size:14px}
+.btn.danger{background:#d63031}
+button.link{background:none;color:#0984e3}
+.actions{display:flex;gap:6px}
+.error{color:#d63031;font-size:13px}
+.success{background:#dff9e7;color:#1e7e34;padding:10px;border-radius:4px}
